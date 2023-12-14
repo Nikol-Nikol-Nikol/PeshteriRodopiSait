@@ -1,0 +1,153 @@
+﻿body {
+ background-color:moccasin;
+}
+
+.topMenu ul {
+ padding: 0px;
+ height: 40px;
+ line-height: 15px;
+ background-color: sandybrown;
+ text-align: center;
+}
+#NachalnaStr {
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
+ width: 960px;
+}
+
+
+.topMenu li {
+ width: 100px;
+ margin: 0 5px;
+ padding: 5px 0;
+ cursor: grabbing; 
+ color: sandybrown;
+ display: inline-block;
+}
+
+ .topMenu li:hover {
+  background-color: sandybrown;
+  padding: 5px 0;
+ }
+
+ .topMenu a {
+  text-decoration: none;
+  color: bisque;
+ }
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: saddlebrown;
+    text-decoration: none;
+    text-align: center;
+}
+
+ footer ul {
+  list-style-type: none;
+  }
+
+ footer ul li a {
+  color: bisque;
+  text-decoration: none;
+  }
+
+#Zaglavie h1 {
+    text-align: center;
+    color: #6e430f;
+}
+
+#InteresenSpisuk{
+ background-color: transparent;
+ margin-top: 30px;
+ padding: 5px;
+ width: 260px;
+ font-size: 20px;
+ box-shadow: 0 0 10px 2px #333333;
+ border-radius:25px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.Info p {
+    float: left;
+    font-size: 20px;
+    width: 50%;
+    text-justify: auto;
+    color: #6e430f;
+    font-style: italic;
+}
+
+.Info img {
+ float: right;
+ width: 540px;
+ height: 280px;
+ margin-right: 50px;
+ border-radius: 5px;
+}
+
+#History p {
+ font-size: 20px;
+
+}
+
+ #QgodinskaSnimki {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+
+#QgodinskaSnimki img {
+ width: 270px;
+ height: 210px;
+ border-radius: 5px;
+ margin-left: 15px;
+ margin-right: 35px;
+}
+
+#DqvoskoSnimki {
+    flex-direction: row;
+    justify-content: space-evenly;
+} 
+
+#DqvoskoSnimki img {
+    width: 270px;
+    height: 210px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 35px;
+}
+#SnejankaSnimki {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+    #SnejankaSnimki img {
+        width: 270px;
+        height: 210px;
+        border-radius: 5px;
+        margin-left: 15px;
+        margin-right: 35px;
+    }
+
+#InteresenSpisuk2 {
+    background-color: transparent;
+    margin-top: 30px;
+    padding: 5px;
+    width: 260px;
+    font-size: 20px;
+    box-shadow: 0 0 10px 2px #333333;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td {
+    border: 1px solid black;
+}
+#Mestopolojenie{
+
+}
